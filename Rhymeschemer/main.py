@@ -27,7 +27,6 @@ def generate_scheme():
     """
     Parameters: text (string) to be schemed
 
-    Returns: dict with rhyme tag as key and word array as values
     
     """
     generate_hex = lambda: hex(randint(0, 16777215))
